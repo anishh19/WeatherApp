@@ -1,0 +1,89 @@
+html{
+    min-height: 100%;
+}
+
+header{
+    background: rgba(241, 240, 240, 0.3);
+    size: 10px;    
+    
+}
+.flexbox-container{
+    display: flex;
+    background: #4ABDAC;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
+
+.flexbox-item{
+    background: #eb7757;
+    min-width:300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #eb7757;
+    padding: 10px;
+    
+}
+body{
+    margin-top: 0;
+    background-color: #4ABDAC;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #DFDCE3 ;
+}
+    
+
+.flexbox-item-1{
+    min-height: 250px;
+    display:none;
+}
+
+button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #eb7757;
+    color: #DFDCE3 ;
+    outline: 0;
+}
+
+
+#location{
+    background: rgba(122, 117, 117, 0.3);
+}
+header{
+    background-color:transparent;
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Courier New', monospace;
+    font-weight: bolder;
+}
+
+#btn{
+    text-align: center;
+    padding: 10px;
+}
+#loc {
+    display: none;
+}
+#currentTemperature
+{
+    float: inline-start;
+    font-size: 2.5em;
+}
+#weatherDescription{
+    float: right;
+    font-size: 2.5em;
+    margin-left: 30px;
+}
+#feelsLike{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+footer{
+    float: bottom;
+    border-width: 3px;
+}
+a{
+    color: #eb7757;
+}
